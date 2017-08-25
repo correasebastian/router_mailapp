@@ -5,7 +5,7 @@
 declare var System: any;
 
 declare namespace jasmine {
-  interface Matchers {
+  interface Matchers<T> {
     toHaveText(expected: string): void;
   }
 }
